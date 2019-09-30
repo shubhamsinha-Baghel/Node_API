@@ -1,8 +1,9 @@
 # Node_API
 Node_API for Xperiments_iconic
 
-!!! Prerequiste
-Install Mongodb compass on your machine 
+!!!# Prerequiste
+# Install Mongodb compass on your machine 
+# start mongo.exe 
 
 # Clone repostiory
 # Add Node modules via 'npm install' command
