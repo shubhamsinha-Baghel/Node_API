@@ -16,7 +16,6 @@ let userRoute = require('./Rest_api/src/routes/users')
 let postroute =require('./Rest_api/src/routes/post')
 let favouriteroute=require('./Rest_api/src/routes/favourite')
 let bookmarkroute=require('./Rest_api/src/routes/bookmark')
-let articlesroute=require('./Rest_api/src/routes/articles')
 let path = require('path')
 let bodyParser = require('body-parser')
 
@@ -34,7 +33,6 @@ app.use('/api/users', userRoute)
 app.use('/api/post',postroute)
 app.use('/api/favourite',favouriteroute)
 app.use('/api/bookmark',bookmarkroute)
-app.use('/api/articles',articlesroute)
 app.use(express.static('public'))
 exports.app = functions.https.onRequest(app);
 // Handler for 404 - Resource Not Found
