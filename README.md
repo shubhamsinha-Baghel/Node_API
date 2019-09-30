@@ -5,6 +5,8 @@ Node_API for Xperiments_iconic
 # Install Mongodb compass on your machine 
 # start mongo.exe 
 
+
+#Repoistory Guidelines.
 # Clone repostiory
 # Add Node modules via 'npm install' command
 #  you get error regarding routing make sure routing path in index.js should be correct for importing once you import  different route models.js
